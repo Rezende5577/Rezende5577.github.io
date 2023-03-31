@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+nav{
+    background-color: black;
+    padding: 0 20px; 
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav,ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+li{
+    padding: 0 20px;
+    color: white;
+}
+
+h1{
+    margin: 0;
+    padding: 10px ;
+    color: white;
+}
+
+li:hover, h1:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color: white;
+}
+a {
+    color: white;
+
+}
+
+
+
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: 'Alkatra', cursive;
+    
+    
+}
+
+
+footer{
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    height: 35px;
+    text-align: center;
+    color: white;
+    
+}
+
+.href {
+    color: white;
+}
+
+
+
+/*Esqueleto geral das páginas*/
+
+.Apresentação {
+    text-align: center;
+    color: white;
+}
+
+.Biografia {
+    text-align: center;
+    color: white;
+}
+
+
+
+form {
+    text-align: center
+}    
+
+/*Página de novidades*/
+
+img {
+    width: 40%; 
+    align-items: center;
+    height: 250px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: white;
+}
+
+/*Página de contato*/
+
+i {
+    padding: 20px;
+    color: white;
+    
+}
+/*Página inicial*/
+
+/* Página de projetos*/
+
+
